@@ -12,4 +12,35 @@ Storage Type:
     File Storage[Operating System Level,Closely Attached To Server/Os]-Elastic File Storage[Efs]
     Object Storage[Object Container Is Called Bucket,Object Has Data & Metadata,No Sub-Bucket Like As In FileSystem,Only Get[Http]
     An Object Or Put[Http] An Object To Replace]
-Amazon Simple Storage Service Objects Are Replicated On Multiple Devices In Multiple Zone In A Region. 
+Amazon Simple Storage Service Objects Are Replicated On Multiple Devices In Multiple Zone In A Region.
+Bucket Forms Top Level NameSpace In All Over Aws[63 Character,Default 100 Bucket Per Account].
+By Default Data Located In Specified Region Unless Replicated In Other Region.
+Object Size 0-5TeraByte.Object Have System Metadata[Date Last Modified,Size,MessageDigest5,Content-Type],User Metadata[Tag].
+Key Must Be Unique InSide Bucket[1024 With Path Name Supported,Optional Version Id] .
+Durability:Will Data Be There In Future? Eleven 9 Durable[99.999999999].Also Using Versioning,Cross-Region Replication,Multifactor 
+    Authentication Delete.
+Availability: Can We Able To Access Data Now?[99.99]
+Reproducible Derived Data[Thumbnail] Reduced Redundancy Storage[Rrs].
+Eventually Consistent[Read After Write].
+Coarse Grained Access Control List & Fine Grained Bucket Policy,Identity&Access Management Policy,Query String 
+    Authentication.
+Classless Inter-Domain Routing [CIDR].Uri:http://<Bucket>.s3-aws-<Region>.amazonaws.com.
+In Flight[Encrypt Using Ssl Api EndPoints],In Rest Data[Server Side Encryption[Sse-256 Aes]/
+    Aws Key Management Service,Client Side Encryption].
+    SseS3-Data Encryption With Unique Key+Key Encryption With Master Key+Master Key Rotation Per Month
+    SseKms-With Key Management Service In Aws
+    SseC[Customer]-Customer Provided Key For Encryption/Decryption
+    Client Side Encryption-Aws Key Management Service Master Key/Customer Master Key
+Versioning-Once Enabled Can Not Be Disabled Only Suspended
+Multifactor Authentication Delete-Only Enabled By Root Account
+Multipart Upload For File Size 100 MByte[Recommended],5GByte Must.
+Cross-Region Replication-Any Metadata/Access Control Lists Are Replicated.Versioning Must Be Turned On.
+Logging-Enable Logging In Bucket Level & Target Bucket.
+Range Gets-Poor Bandwidth Connection Or Known Byte Ranges In an Object.
+Event Notification-Using Simple Notification Service,Simple Queuing Service,Lambda
+Best Practice:Use Hash As Part Of Key Prefix.
+Glacier Stored Archives In Vault[Default 1000 Vault].
+Archives Are Immutable,At Most 40TByte In Size.Tar Is Tape Archive.
+
+Instance Type:Amount Of Virtual Hardware Dedocated To Instance.Page 97.
+Amazon Machine Image/Ami:
