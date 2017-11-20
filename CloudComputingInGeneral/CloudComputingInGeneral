@@ -1,0 +1,25 @@
+Six Advantages:
+    Trade Capital Expense For Variable Expense,
+    Massive Economies For Scale[Pay As You Go Model],
+    Stop Guessing Capacity[Auto Scaling],
+    Increase Speed & Agility[Quick Provisioning],
+    Stop Running & Maintainig Infrastructure,
+    Global Deployment[Less Latency Due To Multiple Region].
+Elastic:
+    ScaleUp/ScaleDown
+Metered:
+    Pay-As-You-Go
+Self-Service:
+    Reduced Need For InformationTechology Expert
+Risk:
+    If Cloud Service Provider Gone Out Of Business[Data Security Risk].
+History Of Cloud:
+    The More Things Change,The More They Stay The Same.Cloud Computing Also Known As Cetralized/OnDemand/Grid/Distributed Computing,
+    Application Service Provider,Hosting.Virtualization Done Via VmWare Esx Server/HyperVisor Operating System.Container Is Popularized
+    By Docker.Secure Multiple Tenancy[In Same Host Can Have Multiple Vm,Each Used By Different Tenant.
+Cloud Model:
+    Infrastructure As A Service (IaaS)[Aws Ec2], Platform As A Service (PaaS)[]Aws Elastic BeanStalk,Google App Engine], Software As A 
+    Service (SaaS)[Office 365,Google Suite,SalesForce.com,DropBox].
+
+
+

@@ -1,0 +1,8 @@
+Protocol Is Set Of Rules.Communication Model Breaks Complex Networking Tnto Components.
+Transmission Control Protocol Is Used For SettingUp,Maintaining,TearDown Channel.
+ThreeWay HandShake To Establish Session/Connection/Channel:
+    Client Will Send Syn Message To Server For Synchronization.
+    On Receiving Syn Message From Client,Server Will Send Syn-Ack[Synchronization Acknowledgement] To Client.
+    On Receiving Syn-Ack From Server,Client Send Ack[Acknowledgement] To Server To Initiate Channel/Connection.
+Dns:
+    Domain Name System[Acts Like Telephone Book].
