@@ -7,4 +7,9 @@ For Security Compliance Following Certification:
     Federal Risk & Authorization Management Program(FedRamp)
     Payment Card Industry Data Security Standard(PciDss Level 1)
     International Organization For Standardization (Iso 9001,27001,27018)
-    
+Storage Type:
+    Block Storage[Hardware Level,Allocated As Block Size,,Closely Attached To Server]-Elastic Block Storage[Ebs]
+    File Storage[Operating System Level,Closely Attached To Server/Os]-Elastic File Storage[Efs]
+    Object Storage[Object Container Is Called Bucket,Object Has Data & Metadata,No Sub-Bucket Like As In FileSystem,Only Get[Http]
+    An Object Or Put[Http] An Object To Replace]
+Amazon Simple Storage Service Objects Are Replicated On Multiple Devices In Multiple Zone In A Region. 
