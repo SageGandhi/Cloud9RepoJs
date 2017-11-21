@@ -42,5 +42,19 @@ Best Practice:Use Hash As Part Of Key Prefix.
 Glacier Stored Archives In Vault[Default 1000 Vault].
 Archives Are Immutable,At Most 40TByte In Size.Tar Is Tape Archive.
 
-Instance Type:Amount Of Virtual Hardware Dedocated To Instance.Page 97.
-Amazon Machine Image/Ami:
+Instance Type:Amount Of Virtual Hardware Dedocated To Instance.Compute Optimized[C],Memory Optimized[R],Storage[Input/Output] 
+    Optimized[I],Gpu Optimized[G].For Enhanced Networking Single Root Input/Output Virtualization Used[Only Available Under 
+    Amazon Virtual Private Cloud].
+Amazon Machine Image/Ami:Addressing An Instance Can Be Done In 3 Way:
+    Published DomainNameSystem Name,Published Ip,Elastic Ip.
+Virtual Firewall Protection-Implemented Via Security Group[Port,Protocol,Source/Destination]
+If Not Mentioned Default Rule Is Deny For All Others[Port,Protocol,Source/Destination]
+Ec2-Classic Security Group Allow Only OutGoing Traffic,Where Vpc Security Group Allow Both.
+Security Group Is A Stateful Firewall[Remembering OutBound Rule Imply InBound Rule Without Being Specified].
+Security Groups Are Applied To Instance Level.
+BootStrapping Can Be Done With UserData In Advanced Section.
+All MetaData Can Be Retrieved From http://169.254.169.254/latest/meta-data/ Url.
+Instance Type Can Be Changed After Stopping The Instance.Instance Security Group Can Be Changed Without Stopping The Instance.
+OnDemand[No Upfront Commitment],Reserverd[Capacity Reservation For Predictable WorkLoad.Based On Termed Commitment In Duration
+    & Payment Option All/Partially/No Upfront],Spot Instance[For WorkLoad Not Time Critical & Interruption Tolerant.When 
+    Pricing Less Than Customer Bid]:
