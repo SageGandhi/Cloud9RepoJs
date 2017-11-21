@@ -57,4 +57,17 @@ All MetaData Can Be Retrieved From http://169.254.169.254/latest/meta-data/ Url.
 Instance Type Can Be Changed After Stopping The Instance.Instance Security Group Can Be Changed Without Stopping The Instance.
 OnDemand[No Upfront Commitment],Reserverd[Capacity Reservation For Predictable WorkLoad.Based On Termed Commitment In Duration
     & Payment Option All/Partially/No Upfront],Spot Instance[For WorkLoad Not Time Critical & Interruption Tolerant.When 
-    Pricing Less Than Customer Bid]:
+    Pricing Less Than Customer Bid].
+Tenancy Model:Shared Tenancy,Dedicated Instance[Can Run On Any Host],Dedicated Host.
+Placement Group Is For Low Latency 10 Gbps Network Connection.
+Instance Store Can Be Hard Disk Drive/Solid State Drive.[Aka Ephemeral Storage]
+Elastic Block Store Is Of 7 Types:
+    Magnetic Volumes[1Giga To 1Tera,Burstable Upto 100Iops],
+    General Purpose Solid State Drive[1Giga To 16 Tera,Iops 3 Times Per Giga Provisioned,Burstable Capping At 10000Iops,Not Used Iops 
+    Accumulated As Io Credit.Io Credit ,Used When Burstable Mode Required Until Depleted]
+    Provisioned Iops SolidState Drive:4Giga To 16Tera,Max Of 30Times Per Provisioned Gb Or 20k Iops.
+Create Snapshot Of Elastic Block Store To S3 Control Storage[Not Same As S3 Bucket].Migrate To Different Region Need To Copy 
+In Other Region.Snapshot Used For Resizing The Volume.For Encryption Use Aws Kms Have Minimal Effect On Latency.
+Use www.WhatsMyIP.org To Know Your Ip.
+
+Amazon Virtual Private Cloud:
