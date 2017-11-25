@@ -1,0 +1,19 @@
+Address Type: Network Address[All 0 In Host Portion]/BroadCast Address[All 1 In Host Portion]/Host Address
+LoopBack Address: 127.0.0.1 To Check Tcp/Ip Stack Is Itact.
+Classless InterDomain Routing[Cidr]: How Many 1 Bit Are There For SubnetMask[Ip Address/No Of 1 Bit In Subnet Mask Or Network Pefix]
+In Ipv4 We Use Octets[8 Bit]/Ipv6 We Use Hextets[16 Bit/2 Octet/4 Nibble[4 Bit]].
+In Ipv6 We Have 64 Bit Network Identifier Portion & 64 Bit Interface Identifier Portion.
+We Can Eliminate Leading 0 In Each Hextets To Minify Ipv6 Address.If More Than 1 Hextet Is 0 One After Another,Will Replace With ::.
+Double Colon Will Appear Only Once In Ipv6 Address If Possible.
+Ipv6 UniCast Address Used For Global Communication Like Ipv4.
+Ipv6 Link Local Address Used For Local Communication Like Mac Address[Fe80::/10,Starts With Fe80].
+Loopback Address[::1/128],UnSpecified[::/128],Unique Local[Fc00::/7]Or Private Addressing.No Network Address Translation In Ipv6.
+Multicast Address[One To Many Communication]/AnyCast Address[One Ip-Many Devices,Load Balancing]
+Link Local Address Contains Priority Value After %.
+Ipv6 New Address Accuisition Process Slaac[Stateless Address Auto Configuration].Router Advertise Its Link Local Address.Based On That
+    Connected Devices Will Choose Their Ipv6 Link Local Address.Those Devices In Turn Do A Neighbour Advertise To Let Othhers Know About 
+    Its Ipv6 Address.Otherwise Dynamic Host Configuration Protocol Used.
+Internet Service Provider Get Ip From Internet Assigned Number Authority[Iana]
+Routers Job To Set up Communication BetWee Two Network.
+Variable Length Subnet Mask[Vlsm]:List Number Of Node In Max To Min Order.Identify Network Prefix,Subnet,Next Network,Starting & Ending 
+    Host Ip,BroadCast Address.

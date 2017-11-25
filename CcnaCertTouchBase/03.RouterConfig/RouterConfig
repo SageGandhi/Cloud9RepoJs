@@ -1,0 +1,6 @@
+Post[Power On Self Test],Load Bios[Basic Input/Output System] From Rom[Electronically Erasable Programmable Read Only Memory].Router 
+    Loads InterNetWorkig Operating System.Router StartUpConfig Located In Non-Volatile Random Access Memory Used By Running-Config File In 
+    Random Access Memory.
+Throttle:A Device That Controls Flow Of Something[Fuel/Power/Packet] Into Something[Engine/Network Interface].
+Router Has User Mode(Prompt:>)/Priviledged Mode(Enable Command,Prompt:#)/Configuration Mode(Configure Terminal,Prompt:(Config)#)
+Ip Cef:Cisco Express Forwarding For Routing Packets Faster.
