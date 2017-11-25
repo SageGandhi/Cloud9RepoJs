@@ -1,0 +1,45 @@
+-Networking Is Communication[Moving Information] Between Two Or More Parties.Communication Medium Is Air As In Human Communication.
+-Telegram[Using Morse Code,Conversion Of One Language To Another]-Telephone[Using Electrical Signal]
+-In A Party We Use Local Addressing Using Names To Communicate Each Other[Ethernet Mac[Media Access Control] Addressing].
+-Using Telephone Number We Can Communicate As Global Addressing[Ip Addressing].
+-Cue[A Thing Said Or Done That Serves As A Signal To An Actor/Performer To Begin Their Action/Performance] Used For Initiate/Tear Down 
+    Communication.In Phone Number Say Hi/Hello As Initiator,Pardon Me/You Are Breaking Up/Ok As Acknowledgement.Everything Else Other 
+    Than Cue & Acknowledgement Is Data For Communication.[Tcp Used 3 Way HandShaking]
+-For Communication We Are Using Air[Local]/Wire[Global] Communication.
+
+-Protocol Is Set Of Rules.Communication Model Breaks Complex Networking Tnto Components.
+-Transmission Control Protocol Is Used For SettingUp,Maintaining,TearDown Channel.
+-ThreeWay HandShake To Establish Session/Connection/Channel:
+    -Client Will Send Syn Message To Server For Synchronization.
+    -On Receiving Syn Message From Client,Server Will Send Syn-Ack[Synchronization Acknowledgement] To Client.
+    -On Receiving Syn-Ack From Server,Client Send Ack[Acknowledgement] To Server To Initiate Channel/Connection.
+-Dns:
+    -Domain Name System[Acts Like Telephone Book].
+-Example Of Different Protocol:
+    -SFTP[Secure Shell File Transfer Protocol],EIGRP[Enhanced Interior Gateway Routing Protocol],HTTP[Hypertext Transfer Protocol],
+     RIP[Routing Information Protocol],Ethernet,TCP[Transmission Control Protocol],FTP[File Transfer Protocol],
+     RSTP[Rapid Spanning Tree Protocol/802.1W],BGP[Border GateWay Protocol],MVRP[Multiple Vlan Registration Protocol/802.1Q],
+     PPP[Point To Point Protocol],IMAP[Internate Message Access Protocol],POP3[Post Office Protocol 3],SMTP[Simple Mail 
+     Transfer Protocol],IP[Internet Protocol],TFTP[Trivial File Transfer Protocol],NTP[Network Time Protocol],ICMP[Internet 
+     Control Message Protocol],UDP[User Datagram Protocol],HSRP[Hot Standby Router Protocol],OSPF[Open Shortest Path First],
+     Ipv6[Internet Protocol Version 6].
+-Default Gateway[Gateway To Internet]/Router[Routing To Internet] Is Synonymous.
+-Osi[Open System InterConnection] Model:Physical<->DataLink->Network<->Transport<->Session<->Presentation<->Application Layer
+-Tcp/Ip Model:Network Interface[Ethernet Work On Top Of Physical Medium.Ethernet Over Wireless 802.11,Ethernet Over Wire,Ethernet 
+    Over Fiber Optics]<->Internet<->Transport<->Application Layer
+-For Text To Binary: Open Standard[Ascii]/Ibm Standard[Ebcdic].Presentation Layer Will Convert This Binary Data To Support 
+    Underlying Hardware[Citrix Ica[Independent Computing Architecture] Use Presentation Layer].
+-Session Layer Used For Secure Socket Layer Connection[Https Use It].
+-Osi[Open System InterConnection] Model Chunks:
+    -[Physical Layer Bits[[DataLink Frame[Source Mac Address[48 Bit]|Destination Mac Address[48 Bit]|Above Layer Protocol|Payload{[
+        Ip Packet{Source Ip Address|Destination Ip Address|Time To Live|PayLoad{
+            [Transport Segment{Source Port|Destination Port|Flags|Sequence|Acknowledgement|Application Layer Payload}]}}]]]
+-Mac Address Burned Into Network Interface Cards.[48 Bit:Msb 24 Bit Manufacturer Id+Lsb 24 Bit Serial Number]
+-Network Interface Layer<->Physical Layer[Frame<->Signal]
+-Router Separate Two NetWork Using Differnt Mac Address For OutSide & InSide Traffic.As Mac Address Differs,Ip Address Will Differ As Well
+    Because Those 2 Are Separate Physical Network Interface Card[Nic Is Pci Device[Peripheral Component Interface]].Router Is Network Layer 
+    Device.Router Will Communicate Between Networks.
+-Command To Use [IpConfig /All,Ping[Packet Internet Groper]]
+-Physical Address/Hardware Address/Mac Address All Are Same.
+-Cisco Certified Entry Network Technician/Cisco Certified Network Associate[Route/Switch,Industrial,Security,Service Provider,Wireless,Cloud,
+    Collaboration[Voice Over Ip/Video Over Ip],Cyber Ops,Data Center]
