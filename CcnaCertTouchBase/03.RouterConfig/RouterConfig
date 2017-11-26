@@ -4,3 +4,16 @@ Post[Power On Self Test],Load Bios[Basic Input/Output System] From Rom[Electroni
 Throttle:A Device That Controls Flow Of Something[Fuel/Power/Packet] Into Something[Engine/Network Interface].
 Router Has User Mode(Prompt:>)/Priviledged Mode(Enable Command,Prompt:#)/Configuration Mode(Configure Terminal,Prompt:(Config)#)
 Ip Cef:Cisco Express Forwarding For Routing Packets Faster.
+Interface Can Be In Three State:Administratively Down[Power Is Off],Down[Power Is On,Cable DisConnected,MisConfigured Protocol],Up.
+Console Port/Aux Port AvailAble To Connect With Router.Motd:Message Of The Day.
+Twisted Pair Category 5/Category 6 Cable,Coaxial Cable,Serial Cable,Single/Multi Mode Fiber Optics.Emi:Electro Magnetic Interference,
+    Rfi:Radio Frequency Interference.
+Collision Domain/Ethernet Frame Header.
+Source Mac Address/Destination Mac Address/Type[Layer3 Protocol]/Data[1500Byte]/FrameSequenceCheck[CyclicalRedundancyCheck]
+Topology:Star,Ring[Ibm Token Ring Media Access Unit Device Used],Bus Topology.Bus Topology Only One Host Can Send Message Due To Csma/Cd.
+    More Than One Host Sending Message Will Have Collision.Hub Is Repeater Of Signal Across Sending Port,Whatever Message Hub Receives 
+    At Receiver.Due To Csma/Cd Collision May Occur When Message Sent By More Than One Host At The Same Time.All The Devices Connected 
+    To The Same Hub Are Within The Same Collision Domain[A Group Of Networked Device That Will Simultaneously Detect A Voltage Spike].
+    All Device In Collision Domain Wait For Random Amount Of Time & Then Retry Sending.
+Mac Address Table Used By A Switch & Populated By Internal Application Specific Integrated Circuit[Asic].
+    
