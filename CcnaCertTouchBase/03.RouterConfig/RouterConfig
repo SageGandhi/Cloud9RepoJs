@@ -22,7 +22,9 @@ BroadCast Message Have All 1111(F) In Destination Mac Address,A Switch Is To Bre
 BroadCast Domain Is Group Of Network Devices Which Will Receive BroadCast Message.Collision Domain Happens In Switch If Chanels Are HalfDuplex 
     For Each Connected Devices.Spanning Tree Protocol Will Stop BroadCast Storm.Mac Address Table Is Stored In Content Addressable Memory
     [Cam Table].Mac Address Will DisAppear/Expire After 300 Second Of Inactivity.
+Arp[Address Resolution Protocol]: Windows Command With Flag -A.
 
+Neighbour Discovery Protocol:
 
 
 
