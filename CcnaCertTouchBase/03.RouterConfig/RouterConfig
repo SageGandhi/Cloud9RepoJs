@@ -24,7 +24,9 @@ BroadCast Domain Is Group Of Network Devices Which Will Receive BroadCast Messag
     [Cam Table].Mac Address Will DisAppear/Expire After 300 Second Of Inactivity.
 Arp[Address Resolution Protocol]: Windows Command With Flag -A.
 
-Neighbour Discovery Protocol:
+Neighbour Discovery Protocol:Cisco Discovery Protocol[60 Sec,Other Intergace Related Details].Link Layer Discovery Protocol.Igmp[Internet 
+    Group Message Protocol] For Capability Multicast.Use Draw.io For Networking Diagram With Cisco Option Checked In Network Section.
+Cisco Network Design Model:Access[Provide Network Access To Devices/Provide Control Access To Network]/Distribution/Core Layer.
 
 
 
