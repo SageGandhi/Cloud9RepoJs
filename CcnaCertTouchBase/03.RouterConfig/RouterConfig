@@ -15,5 +15,20 @@ Topology:Star,Ring[Ibm Token Ring Media Access Unit Device Used],Bus Topology.Bu
     At Receiver.Due To Csma/Cd Collision May Occur When Message Sent By More Than One Host At The Same Time.All The Devices Connected 
     To The Same Hub Are Within The Same Collision Domain[A Group Of Networked Device That Will Simultaneously Detect A Voltage Spike].
     All Device In Collision Domain Wait For Random Amount Of Time & Then Retry Sending.
-Mac Address Table Used By A Switch & Populated By Internal Application Specific Integrated Circuit[Asic].
+Mac Address Table Used By A Switch & Populated By Internal Application Specific Integrated Circuit[Asic].When The Destination Mac Address Of 
+    The Frame Is Not In The Mac Address Table,The Frame Is Sent Out All Active Interfaces,Except For The Receiving Interface.
+BroadCast Message Have All 1111(F) In Destination Mac Address,A Switch Is To Break Collision Domain & Router Is To Break BroadCast Domain.
+    Similar To Flooding But Due To Daisy Chain Switches This Frame Is BroadCasted To All Active Interface Excluding Receiving Interface.
+BroadCast Domain Is Group Of Network Devices Which Will Receive BroadCast Message.Collision Domain Happens In Switch If Chanels Are HalfDuplex 
+    For Each Connected Devices.Spanning Tree Protocol Will Stop BroadCast Storm.
+
+
+
+
+
+
+    
+    
+    
+
     
