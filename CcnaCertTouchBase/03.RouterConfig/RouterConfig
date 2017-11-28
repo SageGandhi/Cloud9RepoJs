@@ -32,8 +32,12 @@ Cisco Network Design Model:Access[Provide Network Access To Devices/Provide Cont
 Address Resolution Protocol:Source Ip Address/Destination Ip Address/TimeToLive[No Of Router To Traverse Before Packet Dropped]/Other/Internet 
     Control Message Protocol.Arp Cache Maintains Ip Address To Mac Address,Cache Evict Via Aging.[Use Command Arp -A To List Arp Cache].Not 
     Same As Mac Address Table[Switch Interface[Mac] To Switch Port Mapping]
-Default Gateway:Router & Gateway Is Same Device.Role Of Router Is To Communicate Accross Different BroadCast Domain.[Initially Routers Are Called
-    Gateway].
+Default Gateway:Router & Gateway Is Same Device.Role Of Router Is To Communicate Accross Different BroadCast Domain/Allow Traffic From One
+    Ip Network To Another Ip Network.[Initially Routers Are Called Gateway,There Was No Such Thing Called Router].[Route Print] Command Will
+    Print All Route Available From Our WorkStation.
+Ipv6 Neighbour Discovery Protocol:Switch Will Have Igmp[Internet Group Message Protocol] Table For Multicast.Multicast Used For Neighbour 
+    Solicitation.
+Dynamic Routing Using Routing Information Protocol[Rip]/Open Shortest Path First[Ospf].Interior Vs. Exterior Gateway Protocol.
 
 
 
