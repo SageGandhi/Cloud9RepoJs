@@ -26,8 +26,14 @@ Arp[Address Resolution Protocol]: Windows Command With Flag -A.
 
 Neighbour Discovery Protocol:Cisco Discovery Protocol[60 Sec,Other Intergace Related Details].Link Layer Discovery Protocol.Igmp[Internet 
     Group Message Protocol] For Capability Multicast.Use Draw.io For Networking Diagram With Cisco Option Checked In Network Section.
-Cisco Network Design Model:Access[Provide Network Access To Devices/Provide Control Access To Network]/Distribution/Core Layer.
+Cisco Network Design Model:Access[Provide Network Access To Devices/Provide Control Access To Network]/Distribution[Distribute Network 
+    To Access Layer,Filter Traffic Using Access Control ListsA,Apply Routing Policy]/Core Layer.
 
+Address Resolution Protocol:Source Ip Address/Destination Ip Address/TimeToLive[No Of Router To Traverse Before Packet Dropped]/Other/Internet 
+    Control Message Protocol.Arp Cache Maintains Ip Address To Mac Address,Cache Evict Via Aging.[Use Command Arp -A To List Arp Cache].Not 
+    Same As Mac Address Table[Switch Interface[Mac] To Switch Port Mapping]
+Default Gateway:Router & Gateway Is Same Device.Role Of Router Is To Communicate Accross Different BroadCast Domain.[Initially Routers Are Called
+    Gateway].
 
 
 
