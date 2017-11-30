@@ -1,0 +1,40 @@
+Read Jeff Barr Aws Blog[https://aws.amazon.com/blogs/aws/author/jbarr/].
+Read Book : Nick Bostrom:SuperIntelligence Paths,Dangers,Strategies.
+
+Regions[Geographic Location]/Availability Zones[Group Of Data Center]/Edge Location
+
+NetWorking & Content Delivery: Virtual Private Cloud[Vpc]/Route53[Dns Service,53 Is Dns Port,Route 66 Mother Road In America],CloudFront[Content Delivery 
+    NetWork],DirectConnect[Connect OnPremise DataCenter To Cloud Using Direct Telephone Line]
+Compute: Elastic Cloud Compute[Ec2]/Elastic Cloud Compute Container Service[Ecs]/Elastic BeanStalk[Provision According To Bundle]/Lambda[Serverless]/
+    LightSail[Virtual Private Web Server For WordPress/Drupal]
+Storage:Simple Storage Service[Object Storage],Glacier[Archive],Elastic File Service[File Storage],Storage GateWay[Efficient Data Transfer From 
+    OnPremise]
+Database:Relational Database Service[MySql,PostgreSql,MariaDb,Sql,Oracle,Aurora],DynamoDb[Non-Relational Db],RedShift[WareHouse],Elastic Cache.
+Migration: SnowBall,Database Migration Services[Automatic Migration Between Database],Server Migration Service[Automatic Migration Between Server 
+    From OnPremise To Cloud]
+Analytics:Athena[Flat Files To Searchable Database Using Query],Elastic MapReduce[Process Large Data,Log],Cloud Search[Search Engine Feature Fully Managed],
+    Elastic Search[Search Engine Feature,Developer Managed],Kinesis[Stream & Analysing Data At High Rate],Data Pipeline[Move Data Quickly Between Services],
+    QuickSight[Create Visualization On Data For DashBoard]
+Security & Identity: Identity Access Management,Inspector[Inspect Virtual Machine Security Reporting],Certificate Manager,Directory Service[Active Directory 
+    In Aws],Web Application Firewall[Application Level Protection Like Sql Injection,Cross Site Scripting],Artifact[Security Compliance Document]
+Management Tools: CloudWatch[Resource Performance Monitoring],Cloud Formation[Template For Infrastructure To Code],CloudTrail[Auditing Any Resouce 
+    Changes],OpsWorks[Automatic Deployment Using Chef Like Tool],Config[Monitor,Audit Configuration For Ex. Breaking Security Create Alert],Service
+    Catalog[Organization Level Authorization To Aws Services],Trusted Advisor[Optimization Tips,Security Tips]
+Application Services:Step Function[MicroService],Simple Workflow Service[Amazon FulFillment Center,Human Task+Automated Task Workflow],Api Gateway[Publish,
+    Monitor Api],AppStream[Stream Desktop Application],Elastic Transcoder[Video Transcoder For Different Format]
+Developer Tools: CodeCommit[Github Like Repository],CodeBuild[Compiling Code In Different Environment],CodeDeploy[Deploy In Elastic Compute Cloud],
+    CodePipeline[Pipeline For Different Region Like Production,Dev Environment]
+Mobile Services:Mobile Hub[Mobile Console Like Aws Console],Cognito[All SignIn Information],Device Farm[Test App On Real Mobile Devices],Mobile 
+    Analytics[Analyze,Collect Usage Data],PinPoint[Google Analytics For Mobile Service]
+Business Productivity:WorkDocs[Keep Business Document With Secured Place],WorkMail[Sending & Receiving Mail].
+Internet Of Things:Internet Of Things[Device Like Sensor]
+Desktop & AppStreaming:WorkSpaces[Virtual Desktop Infrastructure],AppStream[Stream Desktop Application]
+Artificial Intelligence:Alexa[Internaly Use Lex],Polly[Text To Mp3/Voice],Machine Learning,Rekognition
+Messaging:Simple Notification Service[Publish Message Through EndPoint],Simple Queue Service[Queue Of Jobs,DeCoupling From Application],Simple Email 
+    Service[Sending & Receiving Email]
+
+Certified Solution Architect Associate:Messaging,Desktop & AppStreaming,Security & Identity,Management Tools,Storage,Databases,NetWorking & 
+    Content Delivery,Compute,Aws Global Infrastructure
+    
+    
+    
