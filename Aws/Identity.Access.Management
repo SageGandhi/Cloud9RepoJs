@@ -1,0 +1,54 @@
+Payment Card Industry[Pci] Data Security Standards[Dss].Eventual Consistent.Identity&Access Management Also Provide Security Token Service.
+Principal[Actor Who Can Take Action,User,Role,Federated User,Application].Request Information Consist Of Principal,Environment[Agent],Resource Related
+    Data In Request Context.Console Requires UserName & Password.Api & Cli Requires Access Key & Secret Key.Different Identity Are User,Group,Role.Policy 
+    Is A Json Document For Specifying Permission To Allow/Deny Identity Based Policy Or Resouce Based Policy.Different Action[Crud Operation Like 
+    Create,View,Update,Delete User In Identity&Access Management] Can Be Taken After Authentication & Authorization Done.Resources An Entity Exists 
+    Within Service.Cross-Account Permission Is Also Possible.
+Use Root User Credential For The First Time Only To Create Other User With Specific Permission.Iam User Can Be Person Or Application[Those Are Part Of Same 
+    Root Account].For Federated User/Single Sign On Corporate Active Directory Must Compatible With Security Markup Assertion Language 2.0/Identity Broker 
+    Application[Broker Is The Mediator]/For Microsoft Active Directory[Use Aws Directory Service]/Identity Federation[Google,Faceboo,OpenId,Amazon Use 
+    Cognito].
+Each Policy Have Statement[Effect[Allow/Deny],Action[What Can Be Done],Resouce[On What Resouce]].User/Roles/Group/Policy.Activate MultiFactor Authentication
+    In Root Account[Scan BarCode Using Google Authenticator & Provide 2 Authentication Code].
+Group Name Will Attach Multiple Policy[For AdministratorAccess arn:aws:iam::aws:policy/AdministratorAccess].Permission Can Be Applied By Adding User To Group,
+    Copying Permission From Another Existing User,Attaching Policy Directly.
+Use https://awscert-prajit-gandhi.signin.aws.amazon.com/console To Access Console.Role Created For AWS Service,Another AWS Account,Web Identity,Saml 2.0 
+    Federation.Set Up Billing DashBoard.
+Policy Summary Table[List Of Services]->Service Summary Table[List Of Action & Permission Of Specific Service]->Action Summary Table[Resource,Conditional]
+Arn:Amazon Resouce Name.Same Account Multiple User/Federated User/Cross Account User.
+Identity Access Management User Login Url:
+    https://AwsAccountIdOrAlias.signin.aws.amazon.com/console
+    https://awscert-prajit-gandhi.signin.aws.amazon.com/console
+1.Identity Access Management User And Role Access To Billing Information In My Account:Activate Activate Identity Access Management Access.
+2.Create 2 Policy For Billing Using Non Root AdministratorAccess User:
+    BillingViewAccess:This Policy Applied To View Read-Only Access For Billing Information
+    BillingFullAccess:This Policy Enable Billing Full Access For Attached Resources
+3.Attach Billing Policy To Group:FullAccess Group BillingFullAccess,ViewAccess Group BillingViewAccess.
+    Preferences->Modify Billing Preferences->Save Preferences->Access Denied, ModifyBilling To Modify Page.[For BillingViewAccess]
+4.Use Policy Simulator[https://policysim.aws.amazon.com/]->Select Service->Select Action->Run Simulation.
+
+1.Before Creating Role,Create A Policy & Then Attach To Role.AwsFinalizedDocumentAccess:This Policy Applied To User,Role For Simple Storage 
+    Service Access Excluding Permission And Tagging For A Specific Bucket.Ec2SimpleStorageAccessRole:This Is Used For Ec2 To Access Simple 
+    Storage Access.Switch Role Features Can Be Used & Applied One At A Time[User Can Have Multiple Role But Only One Role Is Applicable At 
+    Any Given Time].AssumeRole Gives Temporary Credential To Perform Action.By This Way Cross-Account Access Possible.
+Do Not Create Aws Root User Access Key Unless Needed,Create User With AdministratorAccess,Generate Access Key For That User.Rotate Access Keys
+    & Password.Never Share Password & Access Keys,Use MultiFactor Authentication.Use Group To Assign Permission/Policy Than Individual.Granting
+    Least Priviledge First[Minimum Set Of Permission,Then Add Additional Permission As Necessary].Access Advisor Tab Details On User,Group,Role
+    Access.Review A Policy Using Policy Summary.Access Levels:Read,List,Write,Permission Management.In Policy Summary Access Levels Either Full
+    Or Limited Access.Define Password Policy In Account Settings Page In Identity & Access Management.To Access Services From Ec2 & Likes Create
+    Role[Contains Policy] To Retrieve Temporary Credential.Role Used For Federated Identity For Cross Account Access.Credential Report Contains
+    UnUsed Password,Access Key Information.Apply Policy Condition For Fine Grained Security.Use CloudTrail To Log Api Calls Related To Iam.
+    Access Control In Amazon Simple Storage Service.Use Aws Certificate Manager When Use Server Certificate.For Each Iam Role Have Trusting
+    Policy[Who Can Assume This Role] & Permission Policy[What This Role Allow].
+--Practice[Iam.UserGuide[PartiallyRead]].
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

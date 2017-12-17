@@ -1,0 +1,12 @@
+Versioning Can Be Suspended But Not Disabled.For Public Access Make Sure EveryOne Has Read Access For Object.Versioned File Can't Be Restored But Versioned 
+Object Can.Delete Delete Marker.Cross Region Repllication Will Copy Object Access Permission For New & Updated File.Daisy Chaining Not Supported For Cross 
+Repllication.Canonical Name Aka Cname.Bucket Name:https://s3.<RegionName>.amazonaws.com/<Bucket Name>/.Web Site Hosting:http://<Bucket Name>.s3-website.
+<RegionName>.amazonaws.com.Read After Write For New Put Object,Eventual Consistent For Update/Delete Object.InFrequent Access Storage[Object Of 128Kb 
+At Least].Subnet Can Not Span Over Multiple Availability Zone.Use Putty/Putty KeyGen For Windows Ssh.Security Group Is Virtual Firewall.One Ec2 Instance
+Can Have Multiple Security Group.Any Changes To Security Group Reflect Immediately.Security Group Is Stateful[Inbound Rule Allow Outbound Rule].Network 
+Access Control List Is StateLess.Security Group Can Not Deny Traffic,That Why We Use Access Control List.MySql/Aurora[3306],RemoteDesktopProtocol[3389].
+We Can Assign Multiple Security Group For Instance[Action->Networking->Change Security Group][lsblk/mkfs -t ext4 </dev/xvdf>,mkdir /ebsmumbai,
+mount /dev/xvdf /ebsmumbai,umount /dev/xvdf.Now We Can Detach].Create SnapShot,Then Create Volume From SnapShot[Change Volume Type If Needed],Then 
+Attach That Volume.Stop Instance.Create SnapShot.Ebs Volume Can Changed On The Fly[Wait For 6 Hours For Make Another Volume Type Change].Volume Must Be 
+In The Same Availability Zone As Ec2 Instance.Raid:Redundant Array Of Independent Disk.For Load Balancer We Have Dns Address Not Public Ip Address.
+CloudWatch Is For Monitoring,ClouTrail For Audit[Trail].Use Region Flag With Aws S3 Commands.Url:curl http://169.254.169.254/latest/meta-data/.

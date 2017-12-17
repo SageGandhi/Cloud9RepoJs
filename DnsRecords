@@ -1,0 +1,20 @@
+Host Record:Server Name To Ip Address[IpV4[A Record],IpV6[AAAA Record]] Or LookUp.Reverse LookUp[Pointer[Ptr] Record]:Ip Address To Server Name,Required 
+Reverse LookUp Zone.Canonical Name Record Or Alias Used For Redirection.Name Server Record[Point To Other Dns Server Called Ns Record].Mx Record[Mail 
+Exchanger Record Used For Mail Server].Global Catalog:Service Locator Recor:[Glossary Like Service,For This Service Locator Will Be Known By Dns].Txt 
+Record[Text Record:Resource Record].Soa Record:Start Of Authority Server[Owner Of A Zone]
+Vpc Creates Route Table,Security Group,Network Access Control List But No Internet Gateway/Subnet.One Subnet Means One Availability Zone But Security Group/
+Network Access Control List Spans Over Multiple Availability Zone.All Subnet Bound To Default Route Table.
+Create Vpc[Creates Default Security Group/Default Route Table/Default Network Access Control List]
+Create Internet Gateway.Create Subnet[Public/Private Associated With Default Route Table].
+Create New Route Table,To Add Route To Internet [0.0.0.0/0 All Address Goes Via Created Internet Gateway]
+Associate Public Subnet With New Route Table.Enable Auto Assign Public Ip Address For Public Subnet.
+Deploy 1 Ec2 Each In Public/Private Subnet.Public Ec2 Security Group Support Webmz[Ssh+Http+Https]
+Create Security Group For Private Ec2[Open Icmp For Public Subnet,So That We Can Ping]
+Check Ping & Ssh Working From Public Subnet Using Private Ip.
+Network Address Translation:Nat Instance Must Be Behind Security Group But Nat GateWay Does Not.Use Same Security Group As Of Public Subnet.
+Disable Source/Destination Check For Nat.Use Nat Instance As Gateway To Internet For Main Default Route Table When We Have Created Vpc.
+Security Group Instance Level,Network Access Control List Subnet Level.
+One Subnet==One Availability Zone==One Network Access Control List[Network Access Control List Can Have Multiple Subnet].
+Use Ephemeral Port[1024-65535] For Network Access Control List.Load Balancer Required 2 At Least Subnet.
+Invisibility Timeout[Sqs,Pull Based].
+Activity/Workflow Starter,Decider,Activity Worker In Swf.
